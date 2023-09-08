@@ -140,6 +140,9 @@ background-color: #fff;
   #pricing {
     padding: 100px;
   }
+  .plan {
+    height: 395px;
+  }
 
   .price-text {
     font-size: 3rem;
@@ -149,7 +152,9 @@ background-color: #fff;
   .pricing-column {
     padding: 3% 2%;
   }
-
+.signup {
+  margin-top: 55px;
+}
 
 /* <!-- Call to Action --> */
 
