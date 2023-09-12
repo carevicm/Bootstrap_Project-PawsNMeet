@@ -58,7 +58,7 @@ p {
 /* Sections */
 
 .colored-section{
-  background: linear-gradient(300deg, #00bfff, #6220ba, #bd45bd);
+  background: linear-gradient(300deg, #00bfff, #bd45bd);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 color: #fff;
@@ -70,14 +70,13 @@ background-color: #fff;
 
 /* Title image */
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
+  width: 70%;
   position: absolute;
-  right: 30%;
+  left: 30%;
 }
 /* Title section */
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #6220ba, #bd45bd);
+  background: linear-gradient(300deg, #00bfff,  #bd45bd);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   text-align: left;
