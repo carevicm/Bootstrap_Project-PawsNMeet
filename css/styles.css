@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: black;
 }
 /* Heading */
 .main-heading {
@@ -35,7 +35,7 @@ p {
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 20px;
 }
 
 .nav-link {
@@ -52,13 +52,15 @@ p {
 
 /* Containers */
 .container-fluid {
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 /* Sections */
 
 .colored-section{
-background-color: #ff4c68;
+  background: linear-gradient(300deg, #00bfff, #6220ba, #bd45bd);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 color: #fff;
 }
 
@@ -74,9 +76,10 @@ background-color: #fff;
   right: 30%;
 }
 /* Title section */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #6220ba, #bd45bd);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
   text-align: left;
 }
 
