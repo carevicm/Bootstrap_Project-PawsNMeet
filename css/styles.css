@@ -127,14 +127,18 @@ background-color: #fff;
   }
 
 
-  #press {
-    background-color: #ef8172;
-    padding-bottom: 3%;
-  }
+ #press {
+   background-color: #ef8172;
+  padding-bottom: 3%;
+ } 
 
   .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+    width: 17%;
+    aspect-ratio: 16/9;
+    margin: 10px;
+    padding: 10px;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
   }
 
   /* Pricing Section */
